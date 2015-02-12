@@ -1,4 +1,9 @@
- 110  / 100  
+110 / 100
+
+
+-5: missing ordering test -l -R, -lR
+
++15: coloring works
 
 
 
