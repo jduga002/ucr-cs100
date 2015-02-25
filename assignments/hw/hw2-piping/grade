@@ -1,4 +1,4 @@
-95 / 100
+70 / 100
 
 Input Redirection: 25/25
     [5/5] Input redirection from an existant file
@@ -24,4 +24,7 @@ Extra Credit: 0/40
     [0/20] Input redirection from string
     [0/20] Output redirection from file descriptors
 
-Total: 95/100
+[-25] cppcheck
+    [src/main.cpp:27]: (error) Possible null pointer dereference: username - otherwise it is redundant to check if username is null at line 25
+
+Total: 70/100
